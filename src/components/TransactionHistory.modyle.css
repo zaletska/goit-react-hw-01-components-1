@@ -1,0 +1,25 @@
+table {
+    width: 600px;
+    margin: 0 auto 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.75) 1px 0px 20px 5px;
+    /* border-collapse: collapse; */
+  }
+  
+  tbody {
+    height: 30px;
+    background-color: #fff;
+  }
+  tbody tr:nth-child(2n) {
+    background-color: rgb(41, 108, 68);
+  }
+  thead {
+    height: 30px;
+    background-color: rgb(204, 230, 98);
+  }
+  tbody td {
+    padding-left: 10%;
+  }
+  tbody td:nth-child(2n) {
+    padding-right: 10%;
+    text-align: end;
+  }
